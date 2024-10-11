@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="lmheader">
     <h1 class="titulos">Currículum Vitae</h1>
     <img src="R.jpg" alt="Foto de perfil de Luis Amir">
+</div>
+<div class="lmcontenedorDescripciones">
     <h2 class="titulos">Luis Amir Mendez Chavar</h2>
-    <p id="descripciones">Soy <strong>estudiante</strong> de la <i>UNID</i> en Sistemas Computacionales de el aula 108</p>
-    <h3>Información de contacto</h3>
+    <p id="descripciones">Soy <strong>estudiante</strong> de la <i>UNID</i> en Sistemas Computacionales de el aula 108</p></div>
+    <h3 class="titulos">Información de contacto</h3>
     <ul>
         <li><strong></strong>Telefono: <a href="tel:9831867722">9831867722</a></li>
         <li><strong></strong>Correo Electronico: <a href="mailto:luisamirmendeztrabajos@gmail.com">luisamirmendeztrabajos@gmail.com</a></li>
@@ -19,6 +22,7 @@
         </li> 
     </ul>
     <h3 class="titulos">Experiencia Escolar</h3>
+<div>
         <ol>
             <li>Escuela Primaria: <a href="https://escuelasmex.com/directorio/23DPR0299F/don-melchor-ocampo" target="_blank">Don Melchor Ocampo</a></li>
             <li>Escuela Secundaria: <a href="https://escuelasmex.com/directorio/23DES0016B/moises-saenz-garza" target="_blank">Moises Saenz Garza</a></li>
@@ -32,10 +36,36 @@
             <li>Cajero en: <a href="https://maps.app.goo.gl/bbEGQnuT3wkVid51A" target="_blank">Oxxo el Marquez</a></li>
             </li>
     </ul>
+</div>
+<div>
     <h3 class="titulos">Redes sociales</h3>
     <ul>
         <li><a href="https://www.facebook.com/profile.php?id=61550816001525&mibextid=ZbWKwL" target="_blank">Facebook</a></li>
         <li><a href="https://wa.me/qr/YEKYS7NRAVQII1" target="_blank">Whatsapp</a></li>
     </ul>
+</div>
+<div class="divcontactoslm">
+    <form>
+    <h2>¿Buscas contratarme? ¡Mandame un mensaje!</h2>
+<label for="nombrelm">Escribe tu nombre:</label>
+<input type="text" name="nombrelm">
+<label for="ciudadlm"> De donde vienes</label>
+<select name="ciudadlm" id="">
+<option value="ciudadlm">Chetumal</option>
+<option value="ciudadlm">Cancún</option>
+<option value="ciudadlm">Playa del Carmen</option>
+</select>
+<label for="checkbox">¿En qué estas interesad@?</label>
+<input type="checkbox"> <span>Clases</span>
+<input type="checkbox"> <span>Reprobar</span>
+<input type="checkbox"> <span>Paginas Web</span>
+<input type="checkbox"> <span>Chisme</span>
+<label for="programar">¿Sabes programar?</label>
+<input type="radio" name="programar"> <span>Si</span>
+<input type="radio" name="programar"> <span>No</span>
+<label for="mensaje">Escribeme un mensaje</label>
+<textarea name="mensaje"></textarea>
+    </form>
+</div>
 </body>
 </html>
