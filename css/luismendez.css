@@ -32,3 +32,54 @@ body {
     width: 50%;
     border-radius: 7%;
 }
+.lmcontact {
+    background-color: lightgrey;
+padding: 20px;
+margin: 5px;
+width: 290px;
+position: absolute;
+right: 0px;
+top: 95px;
+border-radius: 7%;
+}
+.lmtitles{
+    background-color: lightgray;
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    width: 290px;
+    padding: 20px;
+    border-radius: 7%;
+}
+.lmjobs{
+    background-color: lightgrey;
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    padding: 20px;
+    margin: 5px;
+    width: 290px;
+    border-radius: 7%;
+}
+.lmredes{
+    background-color: lightgray;
+    width: 200px;
+    padding: 17px;
+    position: absolute;
+    right: 25%;
+    border-radius: 7%;
+
+}
+.divcontactoslm{
+    position: absolute;
+    bottom: 9px;
+    padding: 5px;
+    width: 77%;
+}
+.lmphoto{
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    bottom: 510px;
+    right: 1340px;
+}
